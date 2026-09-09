@@ -1,0 +1,8 @@
+{
+  "entryPoints": ["src/index.ts"],
+  "out": "documentation",
+  "includeVersion": true,
+  "excludePrivate": true,
+  "readme": "none",
+  "name": "@esyion/totp-auth API"
+}

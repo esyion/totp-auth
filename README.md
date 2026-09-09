@@ -148,6 +148,13 @@ Base32 解码。
 - `encoded`: Base32 编码字符串
 - 返回: `Uint8Array`
 
+## 文档
+
+- **API 参考**：本 README 的 [API](#api) 章节；或运行 `npm run docs` 用 TypeDoc 生成完整 HTML 手册（输出到 `documentation/`）
+- **贡献指南**：[CONTRIBUTING.md](CONTRIBUTING.md) —— 开发环境、目录结构、测试与提交规范、发布流程
+- **更新日志**：[CHANGELOG.md](CHANGELOG.md)
+- **可运行示例**：[examples/](examples/) —— 基础用法与 Express 两步验证接入
+
 ## 与 Google Authenticator 配合使用
 
 ```typescript
