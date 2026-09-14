@@ -4,9 +4,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 基于 RFC 6238/4226 标准的 TOTP/HOTP 实现，兼容 Google Authenticator，同时输出 ESM 和 CommonJS 双格式，零运行时依赖。
-
-> **项目来源**：本项目复刻自 [`@krmeow/totp-auth`](https://www.npmjs.com/package/@krmeow/totp-auth)（MIT License, Copyright (c) 2024 krmeow），在其基础上补齐了 TypeScript 源码工程、RFC 标准测试向量测试套件与构建配置，并修复了 `generateSecret` 的 Node 降级路径。感谢原作者 krmeow 的贡献。
-
 ## 特性
 
 - 完整的 TOTP/HOTP 实现（RFC 6238 / RFC 4226）
@@ -212,4 +209,4 @@ npm publish --access public
 
 ## 许可证
 
-MIT License —— 详见 [LICENSE](LICENSE)。本项目基于 [@krmeow/totp-auth](https://www.npmjs.com/package/@krmeow/totp-auth)（MIT）复刻，保留了原作者版权声明。
+MIT License
